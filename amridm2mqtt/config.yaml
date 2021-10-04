@@ -11,8 +11,6 @@ arch:
   - amd64
   - i386
 advanced: true
-startup: application
-boot: auto
 usb: true
 services:
   - mqtt:need
