@@ -24,4 +24,4 @@ schema:
   WH_MULTIPLIER: int
   READINGS_PER_HOUR: int
   DEBUG: str
-image: "ghcr.io/home-assistant/{arch}-addon-amridm2mqtt"
+image: "ghcr.io/jaredhobbs/{arch}-addon-amridm2mqtt"
