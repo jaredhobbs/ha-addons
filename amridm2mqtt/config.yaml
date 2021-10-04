@@ -1,6 +1,6 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
 name: amridm2mqtt add-on
-version: "1.0.1"
+version: "1.0.0"
 slug: amridm2mqtt
 description: Send AMR/ERT Power Meter Data Over MQTT
 url: "https://github.com/jaredhobbs/ha-addons/tree/main/amridm2mqtt"

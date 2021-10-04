@@ -55,6 +55,8 @@ jobs:
             echo "::set-output name=addons::[$changed]";
           else
             echo "No add-on had any monitored files changed (${{ env.MONITORED_FILES }})";
+            echo "Changed: $changed";
+            echo "Changed addons: ${changed_addons[@]}";
           fi
   build:
     needs: init
