@@ -1,4 +1,13 @@
 # Changelog
+
+## [1.24.4] - 2021-10-11
+
+- Fix mqtt yaml; remove config cat
+
+## [1.24.3] - 2021-10-11
+
+- Cat config
+
 ## [1.24.2] - 2021-10-11
 
 - Fix mqtt url
