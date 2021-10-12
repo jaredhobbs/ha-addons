@@ -1,4 +1,8 @@
 # Changelog
+## [1.24.2] - 2021-10-11
+
+- Fix mqtt url
+
 ## [1.24.1] - 2021-10-11
 
 - Use mqtt service configuration
