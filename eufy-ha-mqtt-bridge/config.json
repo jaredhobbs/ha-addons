@@ -5,6 +5,7 @@
   "image": "ghcr.io/jaredhobbs/{arch}-addon-eufy-ha-mqtt-bridge",
   "description": "Publish events as MQTT messages",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "services": ["mqtt:need"],
   "options": {
     "eufy": {
       "username": "mail@example.org",

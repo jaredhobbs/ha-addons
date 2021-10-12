@@ -19,7 +19,6 @@ echo "  url: $(bashio::services mqtt 'host'):1883" >> /app/data/config.yml
 echo "  username: $(bashio::services mqtt 'username')" >> /app/data/config.yml
 echo "  password: $(bashio::services mqtt 'password')" >> /app/data/config.yml
 echo "  keepalive: 60" >> /app/data/config.yml
-cat /app/data/config.yml
 
 bashio::log.info "Image build with version $(cat /version)"
 bashio::log.info "starting original stuff..."
