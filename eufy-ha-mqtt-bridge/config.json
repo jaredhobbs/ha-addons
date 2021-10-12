@@ -5,8 +5,6 @@
   "image": "ghcr.io/jaredhobbs/{arch}-addon-eufy-ha-mqtt-bridge",
   "description": "Publish events as MQTT messages",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
-  "startup": "application",
-  "boot": "auto",
   "options": {
     "eufy": {
       "username": "mail@example.org",
@@ -32,6 +30,5 @@
   "stage": "experimental",
   "url": "https://github.com/matijse/eufy-ha-mqtt-bridge/",
   "map": ["share:rw"],
-  "hassio_role": "default",
   "hassio_api": true
 }
