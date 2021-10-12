@@ -1,4 +1,7 @@
 # Changelog
+## [1.24.1] - 2021-10-11
+
+- Use mqtt service configuration
 
 ## [1.24.0] - 2021-09-30
 
