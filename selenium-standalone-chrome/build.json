@@ -1,0 +1,8 @@
+{
+  "build_from": {
+    "aarch64": "seleniarm/standalone-chromium:latest",
+    "amd64": "selenium/standalone-chrome:latest",
+    "armhf": "seleniarm/standalone-chromium:latest",
+    "armv7": "seleniarm/standalone-chromium:latest"
+  }
+}
