@@ -1,6 +1,6 @@
 {
   "name": "Selenium Standalone Chrome",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "slug": "selenium-standalone-chrome",
   "description": "Provides a Selenium Grid Standalone with Chrome (or Chromium), which enables you to run Selenium WebDriver remotely.",
   "arch": ["armhf", "armv7", "aarch64", "amd64"],
@@ -14,6 +14,7 @@
   "ingress_port": 4444,
   "url": "https://github.com/jaredhobbs/ha-addons/tree/main/selenium-standalone-chrome",
   "environment": {
-    "SE_OPTS": "--enable-managed-downloads true"
+    "SE_OPTS": "--enable-managed-downloads true",
+    "SE_START_VNC": "false"
   }
 }
