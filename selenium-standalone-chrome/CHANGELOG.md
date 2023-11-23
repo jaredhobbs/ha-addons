@@ -1,3 +1,8 @@
+## [0.1.3] - 2023-11-23
+
+- Re-enable VNC but remove password
+- Make VNC view only
+
 ## [0.1.2] - 2023-11-23
 
 - Disable VNC
